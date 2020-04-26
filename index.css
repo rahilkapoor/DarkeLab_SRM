@@ -1,0 +1,44 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: #e84118;
+}
+input{
+	border: none;
+	outline: none;
+}
+.searchbox{
+	background: #333;
+	height: 40px;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 40px;
+	padding: 10px;
+}
+.searchbtn{
+	color: #e84118;
+	background: #333;
+	float: right;
+	width: 60px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+}
+.searchtxt{
+	background: none;
+	border: none;
+	outline: none;
+	float: left;
+	color: white;
+	font-size: 18px;
+	line-height: 40px;
+	transition: 0.6s;
+	width: 280px;
+	padding: 0 6px;
+}
